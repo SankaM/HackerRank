@@ -1,5 +1,6 @@
 import ipk.JumpingOnTheClouds;
 import ipk.RepeatedString;
+import ipk.arrays.LeftRotation;
 
 public class Main {
 
@@ -12,6 +13,11 @@ public class Main {
         // Repeated Strings
         System.out.println("RepeatedString -> :" + RepeatedString.repeatedString("aba", 10));
 
+        // left rotate
+        int[] arrlr = LeftRotation.rotLeft(new int[]{1, 2, 3, 4, 5},4);
 
+        for (int x = 0; x < arr.length -1 ; x++) {
+            System.out.println(arrlr[x]);
+        }
     }
 }
